@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ - CoolAir AC Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white min-h-screen">
+   <!-- Navbar -->
+<nav class="bg-white shadow-md fixed w-full z-50">
+  <div class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+          <div class="flex items-center">
+              <img src="images/logo.jpg" alt="CoolAir Logo" class="h-10 w-auto mr-2">
+              <a href="home.html" class="text-2xl font-bold text-blue-600">CoolAir</a>
+          </div>
+
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="index.html"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >Home</a
+            >
+            <a
+              href="services.html"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >Services</a
+            >
+            <a
+              href="about.html"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >About Us</a
+            >
+            <a
+              href="faq.html"
+              class="text-blue-600 font-medium transition-colors"
+              >FAQ</a
+            >
+            <a
+              href="contact.html"
+              class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >Contact</a
+            >
+          </div>
+
+          <div class="hidden md:block">
+            <a
+              href="contact.html"
+              class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-colors flex items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mr-2"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                ></path>
+              </svg>
+              Call Now
+            </a>
+          </div>
+
+          <div class="md:hidden">
+            <button class="text-gray-700 hover:text-blue-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content with padding for fixed navbar -->
+    <main class="pt-20">
+      <!-- FAQ Header -->
+      <section class="bg-blue-600 py-16 text-white">
+        <div class="container mx-auto px-4 text-center">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">
+            Frequently Asked Questions
+          </h1>
+          <p class="text-xl max-w-3xl mx-auto">
+            Find answers to common questions about air conditioning systems and
+            our services
+          </p>
+        </div>
+      </section>
+
+      <!-- FAQ Categories -->
+      <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <!-- AC Systems Category -->
+            <div
+              class="bg-gray-50 rounded-lg p-6 shadow-md transition-transform hover:scale-105"
+            >
+              <div class="flex items-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600 mr-3"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                <h2 class="text-2xl font-bold text-gray-800">AC Systems</h2>
+              </div>
+              <p class="text-gray-600">
+                Learn about different types of air conditioning systems, their
+                features, and which one might be right for your home.
+              </p>
+            </div>
+
+            <!-- Maintenance Category -->
+            <div
+              class="bg-gray-50 rounded-lg p-6 shadow-md transition-transform hover:scale-105"
+            >
+              <div class="flex items-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600 mr-3"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <h2 class="text-2xl font-bold text-gray-800">Maintenance</h2>
+              </div>
+              <p class="text-gray-600">
+                Discover how regular maintenance can extend the life of your AC
+                system and improve its efficiency.
+              </p>
+            </div>
+
+            <!-- Energy Efficiency Category -->
+            <div
+              class="bg-gray-50 rounded-lg p-6 shadow-md transition-transform hover:scale-105"
+            >
+              <div class="flex items-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600 mr-3"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                <h2 class="text-2xl font-bold text-gray-800">
+                  Energy Efficiency
+                </h2>
+              </div>
+              <p class="text-gray-600">
+                Learn how to reduce your energy consumption and save money with
+                an efficient air conditioning system.
+              </p>
+            </div>
+          </div>
+
+          <!-- AC Systems FAQs -->
+          <div class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+              AC Systems
+            </h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+              <!-- FAQ Item 1 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What type of air conditioning system is best for my home?
+                </h3>
+                <p class="text-gray-600">
+                  The best system depends on several factors including your
+                  home's size, layout, insulation, climate, and budget. Central
+                  air systems are ideal for cooling entire homes, while ductless
+                  mini-splits offer flexibility for cooling specific zones.
+                  Window units and portable ACs are good for smaller spaces or
+                  temporary cooling. We recommend scheduling a free consultation
+                  with our experts who can assess your specific needs.
+                </p>
+              </div>
+
+              <!-- FAQ Item 2 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  How long do air conditioning systems typically last?
+                </h3>
+                <p class="text-gray-600">
+                  With proper maintenance, central air conditioning systems
+                  typically last 15-20 years, while ductless mini-split systems
+                  can last up to 20 years. Window units and portable ACs
+                  generally last 8-10 years. Regular professional maintenance
+                  can significantly extend the lifespan of any system.
+                </p>
+              </div>
+
+              <!-- FAQ Item 3 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What size air conditioner do I need?
+                </h3>
+                <p class="text-gray-600">
+                  Air conditioner sizing is measured in BTUs (British Thermal
+                  Units) or tons. A properly sized unit is crucial for
+                  efficiency and comfort. As a general rule, you need about 20
+                  BTUs per square foot of living space, but factors like ceiling
+                  height, insulation, window placement, and local climate also
+                  matter. Our technicians can perform a detailed load
+                  calculation to determine the exact size needed for your space.
+                </p>
+              </div>
+
+              <!-- FAQ Item 4 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What's the difference between a heat pump and a traditional AC
+                  system?
+                </h3>
+                <p class="text-gray-600">
+                  While traditional AC systems only provide cooling, heat pumps
+                  can both cool and heat your home by reversing the
+                  refrigeration cycle. In cooling mode, both systems work
+                  similarly, but heat pumps can also extract heat from outside
+                  air (even in cold temperatures) and move it inside during
+                  winter. Heat pumps are generally more energy-efficient for
+                  heating in moderate climates but may need supplemental heating
+                  in extremely cold regions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Maintenance FAQs -->
+          <div class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Maintenance
+            </h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+              <!-- FAQ Item 1 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  How often should I service my air conditioner?
+                </h3>
+                <p class="text-gray-600">
+                  We recommend professional maintenance at least once a year,
+                  ideally in spring before the cooling season begins. For
+                  systems that provide both heating and cooling, bi-annual
+                  maintenance (spring and fall) is ideal. Regular maintenance
+                  ensures optimal performance, extends system lifespan, and can
+                  prevent costly breakdowns.
+                </p>
+              </div>
+
+              <!-- FAQ Item 2 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  How often should I change my air filter?
+                </h3>
+                <p class="text-gray-600">
+                  Standard 1-inch filters should typically be changed every 1-3
+                  months, depending on factors like pets, allergies, and air
+                  quality. Thicker premium filters (3-5 inches) may last 6-12
+                  months. Check your filter monthly and replace it when it
+                  appears dirty. A clean filter improves air quality, system
+                  efficiency, and prevents unnecessary strain on your equipment.
+                </p>
+              </div>
+
+              <!-- FAQ Item 3 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What maintenance can I do myself, and what requires a
+                  professional?
+                </h3>
+                <p class="text-gray-600">
+                  Homeowners can handle basic maintenance like changing air
+                  filters, keeping outdoor units clear of debris, ensuring vents
+                  aren't blocked, and cleaning visible dust from registers.
+                  Professional maintenance should include refrigerant level
+                  checks, electrical component inspection, coil cleaning, system
+                  calibration, and other technical tasks that require
+                  specialized tools and expertise.
+                </p>
+              </div>
+
+              <!-- FAQ Item 4 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What are the benefits of a maintenance plan?
+                </h3>
+                <p class="text-gray-600">
+                  Our maintenance plans offer regular scheduled service,
+                  priority scheduling for repairs, discounts on parts and labor,
+                  extended warranty coverage, and peace of mind knowing your
+                  system is operating safely and efficiently. Maintenance plan
+                  customers typically save 20-30% on energy costs and experience
+                  fewer breakdowns compared to systems without regular
+                  maintenance.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Energy Efficiency FAQs -->
+          <div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Energy Efficiency
+            </h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+              <!-- FAQ Item 1 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What SEER rating should I look for in a new air conditioner?
+                </h3>
+                <p class="text-gray-600">
+                  SEER (Seasonal Energy Efficiency Ratio) measures cooling
+                  efficiency—higher numbers indicate greater efficiency. As of
+                  2023, the minimum SEER rating for new installations is 14 in
+                  northern states and 15 in southern states. We typically
+                  recommend systems with SEER ratings of 16-18 for a good
+                  balance of efficiency and cost. High-efficiency models (20+
+                  SEER) cost more upfront but can provide significant long-term
+                  energy savings, especially in hot climates with extended
+                  cooling seasons.
+                </p>
+              </div>
+
+              <!-- FAQ Item 2 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  How can I reduce my cooling costs?
+                </h3>
+                <p class="text-gray-600">
+                  Several strategies can help reduce cooling costs: maintain
+                  your system regularly, use a programmable thermostat (set it
+                  7-10°F higher when you're away), seal air leaks around windows
+                  and doors, add insulation, use ceiling fans, keep blinds
+                  closed during peak sun hours, avoid heat-generating activities
+                  during the hottest parts of the day, and consider upgrading to
+                  a more efficient system if yours is over 10 years old.
+                </p>
+              </div>
+
+              <!-- FAQ Item 3 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  Are there tax credits or rebates available for
+                  energy-efficient systems?
+                </h3>
+                <p class="text-gray-600">
+                  Yes, various incentives are available for energy-efficient
+                  HVAC installations. Federal tax credits currently offer up to
+                  30% of the cost for qualifying high-efficiency systems. Many
+                  utility companies also offer rebates ranging from $100-$1,000
+                  depending on the system efficiency. State and local incentives
+                  may provide additional savings. Our team can help identify all
+                  available incentives during your consultation.
+                </p>
+              </div>
+
+              <!-- FAQ Item 4 -->
+              <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">
+                  What's the most energy-efficient temperature to set my
+                  thermostat?
+                </h3>
+                <p class="text-gray-600">
+                  The U.S. Department of Energy recommends setting your
+                  thermostat to 78°F (26°C) when you're home and need cooling.
+                  Every degree below this setting increases energy consumption
+                  by approximately 3-5%. Using a programmable or smart
+                  thermostat to increase the temperature when you're away or
+                  sleeping can further reduce energy use without sacrificing
+                  comfort when you need it most.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="py-16 bg-blue-600">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Still Have Questions?
+          </h2>
+          <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            Our team of experts is ready to help you with any questions about
+            your air conditioning needs.
+          </p>
+          <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a
+              href="contact.html"
+              class="bg-white hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-md font-medium transition-colors inline-block"
+              >Contact Us</a
+            >
+            <a
+              href="tel:5551234567"
+              class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-md font-medium transition-colors inline-block flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mr-2"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                ></path>
+              </svg>
+              Call Us Now
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="col-span-1 md:col-span-2">
+            <h3 class="text-2xl font-bold mb-4">CoolAir AC Services</h3>
+            <p class="mb-4 text-gray-300">
+              Providing premium air conditioning services with reliability and
+              expertise. Your comfort is our priority.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="https://facebook.com"
+                class="text-gray-300 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://instagram.com"
+                class="text-gray-300 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a
+                href="https://twitter.com"
+                class="text-gray-300 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="/"
+                  class="text-gray-300 hover:text-white transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/services.html"
+                  class="text-gray-300 hover:text-white transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/about.html"
+                  class="text-gray-300 hover:text-white transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/faq.html"
+                  class="text-gray-300 hover:text-white transition-colors"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact.html"
+                  class="text-gray-300 hover:text-white transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+            <address class="not-italic text-gray-300">
+              <p class="mb-2">Cool St. Imus City, Cavite</p>
+              <p class="mb-2">
+                <a
+                  href="tel:5551234567"
+                  class="hover:text-white transition-colors"
+                  >(+69) 990 871 7123</a
+                >
+              </p>
+              <p>
+                <a
+                  href="mailto:info@coolairac.com"
+                  class="hover:text-white transition-colors"
+                  >info@coolairac.com</a
+                >
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-400"
+        >
+          <p>&copy; 2025 CoolAir AC Services. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
